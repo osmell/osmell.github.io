@@ -1,391 +1,466 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/standar.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
     <title>::: Centro de Pinturas Nubia Estrada</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-    <link rel="shortcut icon" href="images/cpne_ico.ico" title="Favicon"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/namari-color.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
-<body>
-    <div id="preloader">
-        <div id="status" class="la-ball-triangle-path">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+<body id="page-top">
+    <a id="buttonTop"></a>
 
-    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
-        <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
-        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
-        <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
-        <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
-    </div>
-
-    <div id="wrapper">
-        <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
-            <div id="header" class="nav-collapse">
-                <div class="row clearfix">
-                    <div class="col-1">
-                        <div id="logo">
-                            <img src="images/logo02.png" id="banner-logo" alt="Landing Page"/>
-                            <img src="images/logo02.png" id="navigation-logo" alt="Landing Page"/>
-                        </div>
-
-                        <aside>
-                            <ul class="social-icons">
-                                <li>
-                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/CentrodepinturasNubiaEstrada">
-                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" title="Twitter" href="http://www.twitter.com/CPNubiaEstrada">
-                                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" title="Instagram" href="http://www.instagram.com/nubia.cestrada">
-                                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </aside>
-
-                        <nav id="nav-main">
-                            <ul>
-                                <li>
-                                    <a href="#banner">Inicio</a>
-                                </li>
-                                <li>
-                                    <a href="#about">Acerca</a>
-                                </li>
-                                <li>
-                                    <a href="#gallery">Galerìa</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Productos</a>
-                                </li>
-                                <li>
-                                    <a href="#testimonials">Testimonios</a>
-                                </li>
-                                <li>
-                                    <a href="#clients">Clientes</a>
-                                </li>
-                                <li>
-                                    <a href="#pricing">Tienda</a>
-                                </li>
-                            </ul>
-                        </nav>
-
-                        <div id="nav-trigger"><span></span></div>
-                        <nav id="nav-mobile"></nav>
-                    </div>
-                </div>
-            </div>
-
-            <div id="banner-content" class="row clearfix">
-                <div class="col-38">
-                    <div class="section-heading">
-                        <h1>A FREE AND SIMPLE LANDING PAGE</h1>
-                        <h2>Namari is a free landing page template you can use for your projects. It is free to use for your
-                            personal and commercial projects, enjoy!</h2>
-                    </div>
-
-                    <a href="#" class="button">START CREATING TODAY</a>
-                </div>
-            </div>
-        </header>
-
-        <main id="content">
-            <section id="about" class="introduction scrollto">
-                <div class="row clearfix">
-                    <div class="col-3">
-                        <div class="section-heading">
-                            <h3>SUCCESS</h3>
-                            <h2 class="section-title">How We Help You To Sell Your Product</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                        </div>
-                    </div>
-
-                    <div class="col-2-3">
-                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="icon">
-                                <i class="fa fa-html5 fa-2x"></i>
-                            </div>
-                            <div class="icon-block-description">
-                                <h4>HTML5 &amp; CSS3</h4>
-                                <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-                                    neglegentur iudico</p>
-                            </div>
-                        </div>
-
-                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="icon">
-                                <i class="fa fa-bolt fa-2x"></i>
-                            </div>
-                            <div class="icon-block-description">
-                                <h4>Easy to Use</h4>
-                                <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-                                    detracto mediocrem disputationi</p>
-                            </div>
-                        </div>
-
-                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="icon">
-                                <i class="fa fa-tablet fa-2x"></i>
-                            </div>
-                            <div class="icon-block-description">
-                                <h4>Fully Responsive</h4>
-                                <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                    nemore vivendum</p>
-                            </div>
-                        </div>
-
-                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="icon">
-                                <i class="fa fa-rocket fa-2x"></i>
-                            </div>
-                            <div class="icon-block-description">
-                                <h4>Parallax Effect</h4>
-                                <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                    nemore vivendum</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery data-featherlight-filter="a">
-                    <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.1s"><img src="images/gallery-images/gallery-image-1.jpg" alt="Landing Page"/></a>
-                    <a href="images/gallery-images/gallery-image-2.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.3s"><img src="images/gallery-images/gallery-image-2.jpg" alt="Landing Page"/></a>
-                    <a href="images/gallery-images/gallery-image-3.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.5s"><img src="images/gallery-images/gallery-image-3.jpg" alt="Landing Page"/></a>
-                    <a href="images/gallery-images/gallery-image-4.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="1.1s"><img src="images/gallery-images/gallery-image-4.jpg" alt="Landing Page"/></a>
-                    <a href="images/gallery-images/gallery-image-5.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.9s"><img src="images/gallery-images/gallery-image-5.jpg" alt="Landing Page"/></a>
-                    <a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow fadeIn" data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/></a>
-            </aside>
-
-            <div id="services" class="scrollto clearfix">
-                <div class="row no-padding-bottom clearfix">
-                    <div class="col-3">
-                        <blockquote class="testimonial text-right bigtest">
-                            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
-                            <footer>— John Doe, Happy Customer</footer>
-                        </blockquote>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="section-heading">
-                            <h3>BELIEVING</h3>
-                            <h2 class="section-title">Focusing On What Matters Most</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                        </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                            dicta sunt explicabo.
-                        </p>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!
-                        </p>
-                        <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
-                            WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
-                        </a>
-                    </div>
-
-                    <div class="col-3">
-                        <img src="images/dancer.jpg" alt="Dancer"/>
-                    </div>
-                </div>
-            </div>
-
-            <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
-                <div class="row clearfix">
-                    <div class="section-heading">
-                        <h3>FEEDBACK</h3>
-                        <h2 class="section-title">What our customers are saying</h2>
-                    </div>
-                    <blockquote class="col-3 testimonial classic">
-                        <img src="images/user-images/user-1.jpg" alt="User"/>
-                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</q>
-                        <footer>John Doe - Happy Customer</footer>
-                    </blockquote>
-                    <blockquote class="col-3 testimonial classic">
-                        <img src="images/user-images/user-2.jpg" alt="User"/>
-                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua</q>
-                        <footer>Roslyn Doe - Happy Customer</footer>
-                    </blockquote>
-                    <blockquote class="col-3 testimonial classic">
-                        <img src="images/user-images/user-3.jpg" alt="User"/>
-                        <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua</q>
-                        <footer>Thomas Doe - Happy Customer</footer>
-                    </blockquote>
-                </div>
-            </aside>
-
-            <section id="clients" class="scrollto clearfix">
-                <div class="row clearfix">
-                    <div class="col-3">
-                        <div class="section-heading">
-                            <h3>TRUST</h3>
-                            <h2 class="section-title">Companies who use our services</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                        </div>
-                    </div>
-
-                    <div class="col-2-3">
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo1.png" alt="Company"/>
-                            <div class="client-overlay"><span>Tree</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo2.png" alt="Company"/>
-                            <div class="client-overlay"><span>Fingerprint</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo3.png" alt="Company"/>
-                            <div class="client-overlay"><span>The Man</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo4.png" alt="Company"/>
-                            <div class="client-overlay"><span>Mustache</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo5.png" alt="Company"/>
-                            <div class="client-overlay"><span>Goat</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo6.png" alt="Company"/>
-                            <div class="client-overlay"><span>Justice</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo7.png" alt="Company"/>
-                            <div class="client-overlay"><span>Ball</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo8.png" alt="Company"/>
-                            <div class="client-overlay"><span>Cold</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="images/company-images/company-logo9.png" alt="Company"/>
-                            <div class="client-overlay"><span>Cold</span></div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <section id="pricing" class="secondary-color text-center scrollto clearfix ">
-                <div class="row clearfix">
-                    <div class="section-heading">
-                        <h3>YOUR CHOICE</h3>
-                        <h2 class="section-title">We have the right package for you</h2>
-                    </div>
-                    <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="pricing-block-content">
-                            <h3>Personal</h3>
-                            <p class="pricing-sub">The standard version</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>19</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>5 Downloads</li>
-                                <li>2 Extensions</li>
-                                <li>Tutorials</li>
-                                <li>Forum Support</li>
-                                <li>1 year free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                    <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="pricing-block-content">
-                            <h3>Student</h3>
-                            <p class="pricing-sub">Most popular choice</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>29</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>15 Downloads</li>
-                                <li>5 Extensions</li>
-                                <li>Tutorials with Files</li>
-                                <li>Forum Support</li>
-                                <li>2 years free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                    <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="pricing-block-content">
-                            <h3>Business</h3>
-                            <p class="pricing-sub">For the whole team</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>49</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>Unlimited Downloads</li>
-                                <li>Unlimited Extensions</li>
-                                <li>HD Video Tutorials</li>
-                                <li>Chat Support</li>
-                                <li>Lifetime free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer id="landing-footer" class="clearfix">
-            <div class="row clearfix">
-                <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
-                <ul class="col-2 social-icons">
-                    <li>
-                        <a target="_blank" title="Facebook" href="https://www.facebook.com/CentrodepinturasNubiaEstrada">
-                            <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                        </a>
+    <section id="nbar" class="p-0">
+        <nav class="navbar navbar-expand-lg bg-dark px-0 py-3 fixed-top border-bottom" id="navTop">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#page-top">
+                <img src="assets/img/logo01.png" class="logo_nav rounded" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#page-top" aria-current="page">Inicio</a>
                     </li>
-                    <li>
-                        <a target="_blank" title="Twitter" href="http://www.twitter.com/CPNubiaEstrada">
-                            <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#products">Productos</a>
                     </li>
-                    <li>
-                        <a target="_blank" title="Instagram" href="http://www.instagram.com/nubia.cestrada">
-                            <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#testimony">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#team">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#contact">Contactenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nlink" href="#aboutus">Nosotros</a>
                     </li>
                 </ul>
+                </div>
             </div>
-        </footer>
-    </div>
+        </nav>
+    </section>
 
-    <script src="js/jquery.1.8.3.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/featherlight.min.js"></script>
-    <script src="js/featherlight.gallery.min.js"></script>
-    <script src="js/jquery.enllax.min.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.stickyNavbar.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/images-loaded.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script src="js/site.js"></script>
+    <section id="page-top" class="p-0">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <span class="hs_text_1">Calidad y precisión en preparación de pinturas</span>
+                <span class="hs_text_def_1">Mas de 25 años de experiencia en la preparacion de colores de alta calidad.</span>
+                <img src="assets/img/cpne_web_banner_01.png" alt="home_promo" class="pgtop" >
+              </div>
+              <div class="carousel-item">
+                <span class="hs_text_2">Trabajamos con las mejores marcas del mercado</span>
+                <span class="hs_text_def_2">Ocupamos siempre los mejores productos para un resultado de alta calidad.</span>
+                <img src="assets/img/cpne_web_banner_02.png" alt="home_promo" class="pgtop" >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="products" class="p-0" style="background: rgb(242,243,248);">
+        <h2 class="fw-bolder text-center pt-10" style="background: rgb(242,243,248);">Estas son las marcas con las que nosotros trabajamos</h2>
+        <div class="slider">
+            <button id="prev" class="btn">
+                <i class="las la-angle-left"></i>
+            </button>
+
+            <div class="card-content">
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.5</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/244/fc8f52e5-219e-47a0-8475-b96d4f3e6529.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/244/fc8f52e5-219e-47a0-8475-b96d4f3e6529.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Basket Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.4</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/456/1e8ed695-cab8-45b2-b09c-153a7970f9f3.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/456/1e8ed695-cab8-45b2-b09c-153a7970f9f3.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Volley Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.7</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/565/58f397b1-b9d9-49da-91a2-2b647835c0c3.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/565/58f397b1-b9d9-49da-91a2-2b647835c0c3.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Disco Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.2</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/0/a46a853c-ae2a-462e-bc2d-94daa8feb269.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/0/a46a853c-ae2a-462e-bc2d-94daa8feb269.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Blue Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.1</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/830/92cd5f82-0cfb-478d-9d32-a4a7180f593f.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/830/92cd5f82-0cfb-478d-9d32-a4a7180f593f.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Green Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+                
+                <!-- Card -->
+                <div class="card">
+                    <h4>4.5</h4>
+                    <i class="lar la-heart"></i>
+                    <div class="card-img">
+                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/244/fc8f52e5-219e-47a0-8475-b96d4f3e6529.png" alt="">
+                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/216/0d1423ba-5c74-427f-8137-e07dc2209e65.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h2>Red Ball</h2>
+                        <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
+                    </div>
+                </div>
+                <!-- Card End -->
+            
+            </div>
+
+            <button id="next" class="btn">
+                <i class="las la-angle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="testimony" class="p-0">
+        <div class="wrapper">
+            <div class="scroll-list">
+                <div class="scroll-list__wrp js-scroll-content js-scroll-list">
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-1.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-2.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-3.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-4.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-5.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-6.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-7.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-8.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-list__item js-scroll-list-item">
+                        <div class="row p-4">
+                            <div class="col-4">
+                                <img src="assets/img/300-9.jpg" class="sitem rounded">
+                            </div>
+                            <div class="col-8"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="p-0" style="background: rgb(242,243,248);">
+        <h2 class="fw-bolder text-center pt-10" style="background: rgb(242,243,248);">Te presentamos a nuestro equipo</h2>
+
+        <div class="slider">
+            <button id="prevt" class="btn">
+                <i class="las la-angle-left"></i>
+            </button>
+
+            <div class="card-content">
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-1.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-2.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-3.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-4.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-5.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 16rem;">
+                    <img src="assets/img/300-6.jpg" class="card-img-top" alt="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Perez</h5>
+                        <p class="card-text">El mejor CEO que puede haber.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button id="nextt" class="btn">
+                <i class="las la-angle-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact" class="p-0">
+        <h2 class="m-10 fw-bolder text-center">Mantente en contacto con nosotros</h2>
+        <div class="container">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <p class="font-text-li pe-0 ps-0">Siempre puedes estar en contacto con nosotros utilizando cualquiera de los siguientes medios:</p>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-md-6 ms-md-auto pe-0 ps-0">
+                            <h3 class="font-header-h2">Nuestros teléfonos</h3>
+                            <ul>
+                                <li class="font-text-li">Delivery Express: +505 83880152.</li>
+                                <li class="font-text-li">Atencion al Cliente: +505 22508708</li>
+                            </ul>
+
+                            <h3 class="font-header-h2">Donde nos ubicas?</h3>
+                            <p class="font-text-li">Barrio Campo Bruce, semaforos boer 4 1/2 cuadras arriba, Managua.</p>
+                        </div>
+                        <div class="col-md-6 ms-md-auto pe-0 ps-0">
+                            <div class="row">
+                                <h3 class="font-header-h2">Escribenos</h3>
+                                <div class="col-2 font-text-li">Nombre:</div>
+                                <div class="col-10">
+                                    <input type="text" class="form-control form-control-sm" id="txName">
+                                </div>
+                                <div class="col-2 font-text-li">Teléfono:</div>
+                                <div class="col-10">
+                                    <input type="text" class="form-control form-control-sm" id="txPhone">
+                                </div>
+                                <div class="col-2 font-text-li">Asunto:</div>
+                                <div class="col-10">
+                                    <textarea type="text" class="form-control form-control-sm" id="txMessage"></textarea>
+                                </div>
+                                <div class="col-2"></div>
+                                <div class="col-10">
+                                    <a class="btn btn-dark btn-lg w-100 mt-1" href="#">
+                                        Enviar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 ms-md-auto ps-0 pe-0 mt-2">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.280256012307!2d-86.25810351222752!3d12.142194034637633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f715601dc317c07%3A0x53ade30c62e198ee!2sCentro%20de%20Pinturas%20Nubia%20Estrada!5e0!3m2!1ses!2sni!4v1701865067994!5m2!1ses!2sni" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-white bg-white justify-content-center border-top">
+        <div class="row">
+            <p class="text-footer">Todos los derechos reservados por Centro de Pinturas Nubia Estrada © 2023</p>
+        </div>
+        <div class="row">
+            <p class="text-footer">. Design by Osmell J. Rosales R.</p>
+        </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/plugins/overscroll.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/js/standar.js"></script>
+    <script>
+        $(document).ready(function () {
+            var Scrollbar = window.Scrollbar;
+
+            Scrollbar.use(window.OverscrollPlugin);
+
+            var customScroll = Scrollbar.init(document.querySelector('.js-scroll-list'), {
+                plugins: {
+                    overscroll: true
+                }
+            });
+
+            var listItem = $('.js-scroll-list-item');
+
+            listItem.eq(0).addClass('item-focus');
+            listItem.eq(1).addClass('item-next');
+
+            customScroll.addListener(function (status) {
+
+                var $content = $('.js-scroll-content');
+
+                var viewportScrollDistance = 0;
+
+
+                viewportScrollDistance = status.offset.y;
+                var viewportHeight = $content.height();
+                var listHeight = 0;
+                var $listItems = $content.find('.js-scroll-list-item');
+                for (var i = 0; i < $listItems.length; i++) {
+                    listHeight += $($listItems[i]).height();
+                }
+
+                var top = status.offset.y;
+                // console.log(top);
+                var visibleCenterVertical = 0;
+                visibleCenterVertical = top;
+
+                var parentTop = 1;
+                var $lis = $('.js-scroll-list-item');
+                var $focusLi;
+                for (var i = 0; i < $lis.length; i++) {
+                    var $li = $($lis[i]);
+                    var liTop = $li.position().top;
+                    var liRelTop = liTop - parentTop;
+
+                    var distance = 0;
+                    var distance = Math.abs(top - liRelTop);
+                    var maxDistance = $('.js-scroll-content').height() / 2;
+                    var distancePercent = distance / (maxDistance / 100);
+
+
+                    if (liRelTop + $li.parent().scrollTop() > top) {
+                        if (!$li.hasClass('item-focus')) {
+                            $li.prev().addClass('item-hide');
+                            $lis.removeClass('item-focus');
+                            $lis.removeClass('item-next');
+                        }
+                        $li.removeClass('item-hide');
+                        $li.addClass('item-focus');
+                        $li.next().addClass('item-next');
+                        break;
+                    }
+                }
+            });
+
+        });
+    </script>
 </body>
 </html>
