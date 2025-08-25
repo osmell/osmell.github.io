@@ -2,7 +2,6 @@
 
 .logo_nav {
     height: 4rem !important;
-    background-color: #fff;
 }
 
 .nlink{
@@ -170,7 +169,8 @@ section {
     display: flex;
     align-items: center;
     min-height: 98vh;
-    background-image: linear-gradient(-225deg, #1e3c72 0%, #2a5298 50%, #00c6ff 100%);
+    /*background-image: linear-gradient(-225deg, #1e3c72 0%, #2a5298 50%, #00c6ff 100%);*/
+    background-color: #000 !important;
 }
 
 .scroll-list {
@@ -194,10 +194,10 @@ section {
     overflow: auto;
     padding: 50px;
     box-shadow: 0px 7px 46px 0px rgba(0, 0, 0, 0.3);
-    background: #1c2e4a;
+    /*background: #1c2e4a;*/
+    background-color: #FF2A00 !important;
     border-radius: 8px;
-    background-image: linear-gradient(147deg,
-            #2e3a59 0%, #1a2b46 74%);
+    /*background-image: linear-gradient(147deg,#2e3a59 0%, #1a2b46 74%);*/
 }
 
 
@@ -217,7 +217,8 @@ section {
     display: block;
     margin-bottom: 15px;
     border-radius: 8px;
-    background-image: linear-gradient(147deg, #4a90e2 0%, #0072ff 74%);
+    /*background-image: linear-gradient(147deg, #4a90e2 0%, #0072ff 74%);*/
+    background-color: #CFCCCC;
     transition: all 0.35s ease-in-out;
     opacity: 0;
     transform: scale(0.7);
@@ -465,4 +466,95 @@ p {
 .pgtop {
     width: 100%;
     height: 98vh !important;
+}
+
+.btnShop {
+  border: none;
+  width: 9em;
+  height: 3em;
+  border-radius: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1C1A1C;
+  cursor: pointer;
+  transition: all 450ms ease-in-out;
+}
+
+.sparkle {
+  fill: #AAAAAA;
+  transition: all 800ms ease;
+}
+
+.text {
+  font-weight: 600;
+  color: #AAAAAA;
+  font-size: medium;
+}
+
+.btnShop:hover {
+  background: linear-gradient(0deg,#A47CF3,#683FEA);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+  0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+  0px 0px 180px 0px #9917FF;
+  transform: translateY(-2px);
+}
+
+.btnShop:hover .text {
+  color: black;
+}
+
+.btnShop:hover .sparkle {
+  fill: white;
+  transform: scale(1.2);
+}
+
+.sec-navbar {
+  background-color: #000 !important;
+}
+
+/* From Uiverse.io by Yaya12085 */ 
+.playstore-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  border-radius: 9999px;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 0.625rem 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  outline: 0;
+  transition: all  .2s ease;
+  text-decoration: none;
+}
+
+.playstore-button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.texts {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.text-1 {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-2 {
+  font-weight: 600;
 }

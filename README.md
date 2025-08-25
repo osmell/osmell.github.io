@@ -17,36 +17,56 @@
 <body id="page-top">
     <a id="buttonTop"></a>
 
-    <section id="nbar" class="p-0">
-        <nav class="navbar navbar-expand-lg bg-dark px-0 py-3 fixed-top border-bottom" id="navTop">
-            <div class="container-fluid">
+    <section id="nbar" class="p-0" class="sec-navbar">
+        <nav class="navbar navbar-expand-lg bg-black px-0 py-3 fixed-top border-bottom" id="navTop">
+            <div class="container-fluid pe-0 ps-0 m-0">
                 <a class="navbar-brand" href="#page-top">
-                <img src="assets/img/logo01.png" class="logo_nav rounded" alt="logo">
+                <img src="assets/img/logo_nec.png" class="logo_nav rounded" alt="logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler navbar-toggler-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#page-top" aria-current="page">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#products">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#testimony">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#team">Equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#contact">Contactenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nlink" href="#aboutus">Nosotros</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#page-top" aria-current="page">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#products">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#testimony">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#team">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#contact">Contactenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nlink" href="#aboutus">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <button class="btnShop m-3 bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16" class="sparkle">
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                        </svg>
+
+                        <span class="text">Comprar</span>
+                    </button>
+                </div>
+                <div class="d-flex">
+                    <a class="playstore-button" href="https://play.google.com/store/apps/details?id=ni.com.online.pinturasNubiaEstrada&hl=es">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                            <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                        </svg>
+                        <span class="texts">
+                            <span class="text-1">Descarga en</span>
+                            <span class="text-2">Google Play</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -55,16 +75,21 @@
     <section id="page-top" class="p-0">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <span class="hs_text_1">Calidad y precisión en preparación de pinturas</span>
-                <span class="hs_text_def_1">Mas de 25 años de experiencia en la preparacion de colores de alta calidad.</span>
-                <img src="assets/img/cpne_web_banner_01.png" alt="home_promo" class="pgtop" >
-              </div>
-              <div class="carousel-item">
-                <span class="hs_text_2">Trabajamos con las mejores marcas del mercado</span>
-                <span class="hs_text_def_2">Ocupamos siempre los mejores productos para un resultado de alta calidad.</span>
-                <img src="assets/img/cpne_web_banner_02.png" alt="home_promo" class="pgtop" >
-              </div>
+                <div class="carousel-item active">
+                    <span class="hs_text_1"></span>
+                    <span class="hs_text_def_1"></span>
+                    <img src="assets/img/carrusel_01.jpg" alt="home_promo" class="pgtop" >
+                </div>
+                <div class="carousel-item">
+                    <span class="hs_text_1">Calidad y precisión en preparación de pinturas</span>
+                    <span class="hs_text_def_1">Mas de 25 años de experiencia en la preparacion de colores de alta calidad.</span>
+                    <img src="assets/img/cpne_web_banner_01.png" alt="home_promo" class="pgtop" >
+                </div>
+                <div class="carousel-item">
+                    <span class="hs_text_2">Trabajamos con las mejores marcas del mercado</span>
+                    <span class="hs_text_def_2">Ocupamos siempre los mejores productos para un resultado de alta calidad.</span>
+                    <img src="assets/img/cpne_web_banner_02.png" alt="home_promo" class="pgtop" >
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
