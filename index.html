@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg bg-black px-0 py-3 fixed-top border-bottom" id="navTop">
             <div class="container-fluid pe-0 ps-0 m-0">
                 <a class="navbar-brand" href="#page-top">
-                <img src="assets/img/logo_nec.png" class="logo_nav rounded" alt="logo">
+                <img src="assets/img/logoNubia.png" class="logo_nav rounded" alt="logo">
                 </a>
                 <button class="navbar-toggler navbar-toggler-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -78,7 +78,7 @@
                 <div class="carousel-item active">
                     <span class="hs_text_1"></span>
                     <span class="hs_text_def_1"></span>
-                    <img src="assets/img/carrusel_01.jpg" alt="home_promo" class="pgtop" >
+                    <img src="assets/img/Carrusel_02.jpg" alt="home_promo" class="pgtop" >
                 </div>
                 <div class="carousel-item">
                     <span class="hs_text_1">Calidad y precisión en preparación de pinturas</span>
@@ -115,11 +115,11 @@
                     <h4>4.5</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
-                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/244/fc8f52e5-219e-47a0-8475-b96d4f3e6529.png" alt="">
-                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/244/fc8f52e5-219e-47a0-8475-b96d4f3e6529.png" alt="">
+                        <img src="assets/img/logoNec.png" alt="">
+                        <img class="blur" src="assets/img/logoNec.png" alt="">
                     </div>
                     <div class="card-text">
-                        <h2>Basket Ball</h2>
+                        <h2>NEC</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
                 </div>
@@ -130,11 +130,11 @@
                     <h4>4.4</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
-                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/456/1e8ed695-cab8-45b2-b09c-153a7970f9f3.png" alt="">
-                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/456/1e8ed695-cab8-45b2-b09c-153a7970f9f3.png" alt="">
+                        <img src="assets/img/logoBesa.png" alt="">
+                        <img class="blur" src="assets/img/logoBesa.png" alt="">
                     </div>
                     <div class="card-text">
-                        <h2>Volley Ball</h2>
+                        <h2>Bernardo Ecenarro</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
                 </div>
@@ -145,11 +145,11 @@
                     <h4>4.7</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
-                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/565/58f397b1-b9d9-49da-91a2-2b647835c0c3.png" alt="">
-                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/565/58f397b1-b9d9-49da-91a2-2b647835c0c3.png" alt="">
+                        <img src="assets/img/logoSagola.png" alt="">
+                        <img class="blur" src="assets/img/logoSagola.png" alt="">
                     </div>
                     <div class="card-text">
-                        <h2>Disco Ball</h2>
+                        <h2>Sagola</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
                 </div>
@@ -160,11 +160,11 @@
                     <h4>4.2</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
-                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/0/a46a853c-ae2a-462e-bc2d-94daa8feb269.png" alt="">
-                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/0/a46a853c-ae2a-462e-bc2d-94daa8feb269.png" alt="">
+                        <img src="assets/img/logoFusion.png" alt="">
+                        <img class="blur" src="assets/img/logoFusion.png" alt="">
                     </div>
                     <div class="card-text">
-                        <h2>Blue Ball</h2>
+                        <h2>Fusion Epoxy</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
                 </div>
@@ -175,18 +175,18 @@
                     <h4>4.1</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
-                        <img src="https://photo-cdn.icons8.com/assets/sata/editor/object/830/92cd5f82-0cfb-478d-9d32-a4a7180f593f.png" alt="">
-                        <img class="blur" src="https://photo-cdn.icons8.com/assets/sata/editor/object/830/92cd5f82-0cfb-478d-9d32-a4a7180f593f.png" alt="">
+                        <img src="assets/img/logoInnocolor.png" alt="">
+                        <img class="blur" src="assets/img/logoInnocolor.png" alt="">
                     </div>
                     <div class="card-text">
-                        <h2>Green Ball</h2>
+                        <h2>InnoColor</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
                 </div>
                 <!-- Card End -->
                 
                 <!-- Card -->
-                <div class="card">
+                <!-- <div class="card">
                     <h4>4.5</h4>
                     <i class="lar la-heart"></i>
                     <div class="card-img">
@@ -197,7 +197,7 @@
                         <h2>Red Ball</h2>
                         <p>I show you how to make a card group easily and very functional with the use of flexbox and its magic and JavaScript.<p>
                     </div>
-                </div>
+                </div> -->
                 <!-- Card End -->
             
             </div>
